@@ -33,3 +33,8 @@ Thumbs.db
 *.log
 tmp/
 .cache/
+_staging/
+
+# 外部工具运行时留下的中间产物
+.codex-*
+.task-prompt.txt

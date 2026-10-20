@@ -36,7 +36,7 @@ tools/
 
 | 日期 | 工具 | 灵感来源 | 一句话说明 |
 |------|------|----------|------------|
-| _待填_ | | | |
+| 2026-10-20 | [squeeze](tools/2026-10-20-squeeze/) | [headroom](https://github.com/headroomlabs-ai/headroom)（76k★） | 零依赖单文件 CLI，把喂给 LLM 的 JSON/日志压小 60-87%，错误行永不丢弃 |
 
 ---
 
