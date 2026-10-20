@@ -37,6 +37,7 @@ tools/
 | 日期 | 工具 | 灵感来源 | 一句话说明 |
 |------|------|----------|------------|
 | 2026-10-20 | [squeeze](tools/2026-10-20-squeeze/) | [headroom](https://github.com/headroomlabs-ai/headroom)（76k★） | 零依赖单文件 CLI，把喂给 LLM 的 JSON/日志压小 60-87%，错误行永不丢弃 |
+| 2026-10-20 | [depmap](tools/2026-10-20-depmap/) | [graphify](https://github.com/Graphify-Labs/graphify)（129k★） | 扫描 Python 项目画模块依赖图，输出 Mermaid/DOT/JSON，标出循环依赖与死代码 |
 
 ---
 
