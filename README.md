@@ -1,5 +1,23 @@
 # Daily Forge
 
+**One GitHub project taken apart per day — then rebuilt smaller, in our own code.**
+
+Not a fork, not a mirror, not a reskin. Read how someone else solved a problem that a thousand stars already validated, then write our own take on it.
+
+Every tool lives in its **own repository** — clone it, install it, use it on its own. This repo only indexes them.
+
+| Project | What it does |
+|---|---|
+| [**squeeze**](https://github.com/z15346183030/squeeze) | Shrinks JSON / logs before they hit an LLM context — 60–87% smaller, error lines never dropped |
+| [**depmap**](https://github.com/z15346183030/depmap) | Module dependency graph for Python, with cycles and dead code flagged |
+| [**doc2md**](https://github.com/z15346183030/doc2md) | Zero-dependency `.docx` / `.xlsx` / `.pptx` / `.csv` / `.html` → Markdown |
+
+All MIT licensed. All runnable — no "coming soon", no "planned support".
+
+<sub>中文说明见下方 · Chinese documentation below</sub>
+
+---
+
 每天从 GitHub 上挑一个千星以上的项目，拆解它的设计，然后**用我们自己的代码**做一个更小、更聚焦、更好用的版本。
 
 不是 fork，不是搬运，不是换个皮。是看完别人怎么解决问题之后，自己动手写一遍。
