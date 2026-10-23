@@ -14,6 +14,7 @@
 |------|------|------|----------|
 | 2026-10-20 | [**squeeze**](https://github.com/z15346183030/squeeze) | 把喂给大模型的 JSON / 日志压小 60-87%，错误行永不丢弃 | [headroom](https://github.com/headroomlabs-ai/headroom)（76k★，Apache-2.0） |
 | 2026-10-20 | [**depmap**](https://github.com/z15346183030/depmap) | 扫描 Python 项目生成模块依赖图，标出循环依赖与死代码 | [graphify](https://github.com/Graphify-Labs/graphify)（129k★，Apache-2.0） |
+| 2026-10-23 | [**doc2md**](https://github.com/z15346183030/doc2md) | 零依赖把 docx / xlsx / pptx / csv / html 转成 Markdown，只读 OOXML | [markitdown](https://github.com/microsoft/markitdown)（192k★，MIT） |
 
 ---
 
@@ -23,6 +24,7 @@
 
 - [squeeze · 2026-10-20](reports/2026-10-20-squeeze.md) — 为什么一个压缩工具不该引入神经网络
 - [depmap · 2026-10-20](reports/2026-10-20-depmap.md) — 分析工具报 7 个问题、6 个是假的，比一个都不报更糟
+- [doc2md · 2026-10-23](reports/2026-10-23-doc2md.md) — 为了猜一个 .docx 是不是 docx，它加载了一个神经网络
 
 ---
 
