@@ -52,3 +52,6 @@ secrets.*
 id_rsa*
 id_ed25519*
 .gh-token
+
+# 本地运行数据
+.workbuddy-ai/

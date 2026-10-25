@@ -11,6 +11,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**squeeze**](https://github.com/z15346183030/squeeze) | Shrinks JSON / logs before they hit an LLM context — 60–87% smaller, error lines never dropped |
 | [**depmap**](https://github.com/z15346183030/depmap) | Module dependency graph for Python, with cycles and dead code flagged |
 | [**doc2md**](https://github.com/z15346183030/doc2md) | Zero-dependency `.docx` / `.xlsx` / `.pptx` / `.csv` / `.html` → Markdown |
+| [**astdiff**](https://github.com/z15346183030/astdiff) | Structural diff for Python — indentation counts as a change, reformatting doesn't |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -33,6 +34,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-10-20 | [**squeeze**](https://github.com/z15346183030/squeeze) | 把喂给大模型的 JSON / 日志压小 60-87%，错误行永不丢弃 | [headroom](https://github.com/headroomlabs-ai/headroom)（76k★，Apache-2.0） |
 | 2026-10-20 | [**depmap**](https://github.com/z15346183030/depmap) | 扫描 Python 项目生成模块依赖图，标出循环依赖与死代码 | [graphify](https://github.com/Graphify-Labs/graphify)（129k★，Apache-2.0） |
 | 2026-10-23 | [**doc2md**](https://github.com/z15346183030/doc2md) | 零依赖把 docx / xlsx / pptx / csv / html 转成 Markdown，只读 OOXML | [markitdown](https://github.com/microsoft/markitdown)（192k★，MIT） |
+| 2026-10-25 | [**astdiff**](https://github.com/z15346183030/astdiff) | 按 Python 语法树比较两个文件，缩进变更算数、重排缩进不算噪音 | [difftastic](https://github.com/Wilfred/difftastic)（26k★，MIT） |
 
 ---
 
@@ -43,6 +45,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 - [squeeze · 2026-10-20](reports/2026-10-20-squeeze.md) — 为什么一个压缩工具不该引入神经网络
 - [depmap · 2026-10-20](reports/2026-10-20-depmap.md) — 分析工具报 7 个问题、6 个是假的，比一个都不报更糟
 - [doc2md · 2026-10-23](reports/2026-10-23-doc2md.md) — 为了猜一个 .docx 是不是 docx，它加载了一个神经网络
+- [astdiff · 2026-10-25](reports/2026-10-25-astdiff.md) — 一个把缩进当噪音的 diff 工具，在 Python 里会把语义变更报成「没有变化」
 
 ---
 
