@@ -14,6 +14,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**astdiff**](https://github.com/z15346183030/astdiff) | Structural diff for Python — indentation counts as a change, reformatting doesn't |
 | [**spellcode**](https://github.com/z15346183030/spellcode) | Source spell checker — flags typos, never hashes or version strings |
 | [**commitlog**](https://github.com/z15346183030/commitlog) | Git history → CHANGELOG, zero config — next version number included |
+| [**csvsift**](https://github.com/z15346183030/csvsift) | One CSV command: select, filter, sort, limit, group, summarise — values stay exactly as written |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -39,6 +40,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-10-25 | [**astdiff**](https://github.com/z15346183030/astdiff) | 按 Python 语法树比较两个文件，缩进变更算数、重排缩进不算噪音 | [difftastic](https://github.com/Wilfred/difftastic)（26k★，MIT） |
 | 2026-10-25 | [**spellcode**](https://github.com/z15346183030/spellcode) | 源码拼写检查，哈希与版本号一律不碰，放行只需一行注释 | [typos](https://github.com/crate-ci/typos)（4.2k★，Apache-2.0） |
 | 2026-10-25 | [**commitlog**](https://github.com/z15346183030/commitlog) | 零配置把 git 历史变成 CHANGELOG，顺手算出下一个版本号（含预发布） | [git-cliff](https://github.com/orhun/git-cliff)（12.3k★，Apache-2.0） |
+| 2026-10-25 | [**csvsift**](https://github.com/z15346183030/csvsift) | 一个命令完成切列 / 筛行 / 排序 / 截断 / 分组 / 统计，值永远是原始文本 | [csvkit](https://github.com/wireservice/csvkit)（6.4k★，MIT） |
 
 ---
 
@@ -52,6 +54,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 - [astdiff · 2026-10-25](reports/2026-10-25-astdiff.md) — 一个把缩进当噪音的 diff 工具，在 Python 里会把语义变更报成「没有变化」
 - [spellcode · 2026-10-25](reports/2026-10-25-spellcode.md) — 拼写检查器的难点不是找错，是忍住不要报：40 万行代码只报 9 处，9 处全对
 - [commitlog · 2026-10-25](reports/2026-10-25-commitlog.md) — 想藏掉六种提交得写十五条正则，因为工具宁可问你也不肯读一眼规范
+- [csvsift · 2026-10-25](reports/2026-10-25-csvsift.md) — `100_1` 被悄悄改成 `1001`：类型推断是表格工具最不该自作聪明的地方
 
 ---
 
