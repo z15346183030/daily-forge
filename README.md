@@ -16,6 +16,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**commitlog**](https://github.com/z15346183030/commitlog) | Git history → CHANGELOG, zero config — next version number included |
 | [**csvsift**](https://github.com/z15346183030/csvsift) | One CSV command: select, filter, sort, limit, group, summarise — values stay exactly as written |
 | [**yamlsplice**](https://github.com/z15346183030/yamlsplice) | Read and write YAML by path — only that value's bytes change, comments and indentation stay |
+| [**shapefind**](https://github.com/z15346183030/shapefind) | Structural search and rewrite for Python — comments and spacing never affect a match |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -43,6 +44,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-10-25 | [**commitlog**](https://github.com/z15346183030/commitlog) | 零配置把 git 历史变成 CHANGELOG，顺手算出下一个版本号（含预发布） | [git-cliff](https://github.com/orhun/git-cliff)（12.3k★，Apache-2.0） |
 | 2026-10-25 | [**csvsift**](https://github.com/z15346183030/csvsift) | 一个命令完成切列 / 筛行 / 排序 / 截断 / 分组 / 统计，值永远是原始文本 | [csvkit](https://github.com/wireservice/csvkit)（6.4k★，MIT） |
 | 2026-10-26 | [**yamlsplice**](https://github.com/z15346183030/yamlsplice) | 按路径读写 YAML，只替换那个值的字节，注释 / 空行 / 缩进 / emoji 键名原样保留 | [yq](https://github.com/mikefarah/yq)（16.2k★，MIT） |
+| 2026-10-26 | [**shapefind**](https://github.com/z15346183030/shapefind) | 按语法树结构搜索和重写 Python 代码，注释与空格永不干扰，零配置零依赖 | [ast-grep](https://github.com/ast-grep/ast-grep)（16.4k★，MIT） |
 
 ---
 
@@ -58,6 +60,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 - [commitlog · 2026-10-25](reports/2026-10-25-commitlog.md) — 想藏掉六种提交得写十五条正则，因为工具宁可问你也不肯读一眼规范
 - [csvsift · 2026-10-25](reports/2026-10-25-csvsift.md) — `100_1` 被悄悄改成 `1001`：类型推断是表格工具最不该自作聪明的地方
 - [yamlsplice · 2026-10-26](reports/2026-10-26-yamlsplice.md) — 改一个数字产生四十行 diff，因为工具必须把你的文件整个重写一遍
+- [shapefind · 2026-10-26](reports/2026-10-26-shapefind.md) — 一个号称按语法树匹配的工具，被一段注释改变了匹配结果
 
 ---
 
