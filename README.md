@@ -15,6 +15,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**spellcode**](https://github.com/z15346183030/spellcode) | Source spell checker — flags typos, never hashes or version strings |
 | [**commitlog**](https://github.com/z15346183030/commitlog) | Git history → CHANGELOG, zero config — next version number included |
 | [**csvsift**](https://github.com/z15346183030/csvsift) | One CSV command: select, filter, sort, limit, group, summarise — values stay exactly as written |
+| [**yamlsplice**](https://github.com/z15346183030/yamlsplice) | Read and write YAML by path — only that value's bytes change, comments and indentation stay |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -41,6 +42,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-10-25 | [**spellcode**](https://github.com/z15346183030/spellcode) | 源码拼写检查，哈希与版本号一律不碰，放行只需一行注释 | [typos](https://github.com/crate-ci/typos)（4.2k★，Apache-2.0） |
 | 2026-10-25 | [**commitlog**](https://github.com/z15346183030/commitlog) | 零配置把 git 历史变成 CHANGELOG，顺手算出下一个版本号（含预发布） | [git-cliff](https://github.com/orhun/git-cliff)（12.3k★，Apache-2.0） |
 | 2026-10-25 | [**csvsift**](https://github.com/z15346183030/csvsift) | 一个命令完成切列 / 筛行 / 排序 / 截断 / 分组 / 统计，值永远是原始文本 | [csvkit](https://github.com/wireservice/csvkit)（6.4k★，MIT） |
+| 2026-10-26 | [**yamlsplice**](https://github.com/z15346183030/yamlsplice) | 按路径读写 YAML，只替换那个值的字节，注释 / 空行 / 缩进 / emoji 键名原样保留 | [yq](https://github.com/mikefarah/yq)（16.2k★，MIT） |
 
 ---
 
@@ -55,6 +57,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 - [spellcode · 2026-10-25](reports/2026-10-25-spellcode.md) — 拼写检查器的难点不是找错，是忍住不要报：40 万行代码只报 9 处，9 处全对
 - [commitlog · 2026-10-25](reports/2026-10-25-commitlog.md) — 想藏掉六种提交得写十五条正则，因为工具宁可问你也不肯读一眼规范
 - [csvsift · 2026-10-25](reports/2026-10-25-csvsift.md) — `100_1` 被悄悄改成 `1001`：类型推断是表格工具最不该自作聪明的地方
+- [yamlsplice · 2026-10-26](reports/2026-10-26-yamlsplice.md) — 改一个数字产生四十行 diff，因为工具必须把你的文件整个重写一遍
 
 ---
 
