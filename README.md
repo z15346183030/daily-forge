@@ -18,6 +18,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**yamlsplice**](https://github.com/z15346183030/yamlsplice) | Read and write YAML by path — only that value's bytes change, comments and indentation stay |
 | [**shapefind**](https://github.com/z15346183030/shapefind) | Structural search and rewrite for Python — comments and spacing never affect a match |
 | [**mddeck**](https://github.com/z15346183030/mddeck) | Markdown → slides, one self-contained HTML — layout measured at build time, overflow shrunk or reported |
+| [**benchloop**](https://github.com/z15346183030/benchloop) | A/B commands run interleaved — paired speedup with a 95% interval, plus the process-spawn floor |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -47,6 +48,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-10-26 | [**yamlsplice**](https://github.com/z15346183030/yamlsplice) | 按路径读写 YAML，只替换那个值的字节，注释 / 空行 / 缩进 / emoji 键名原样保留 | [yq](https://github.com/mikefarah/yq)（16.2k★，MIT） |
 | 2026-10-26 | [**shapefind**](https://github.com/z15346183030/shapefind) | 按语法树结构搜索和重写 Python 代码，注释与空格永不干扰，零配置零依赖 | [ast-grep](https://github.com/ast-grep/ast-grep)（16.4k★，MIT） |
 | 2026-10-27 | [**mddeck**](https://github.com/z15346183030/mddeck) | Markdown 一键变幻灯片，构建时算好每页排版，溢出自动缩字号或直接报出还差几像素 | [marp-cli](https://github.com/marp-team/marp-cli)（3.9k★，MIT） |
+| 2026-10-27 | [**benchloop**](https://github.com/z15346183030/benchloop) | 交错跑 A/B 命令，用配对数据算加速比与 95% 区间，顺带量出进程创建地板 | [hyperfine](https://github.com/sharkdp/hyperfine)（29.2k★，Apache-2.0） |
 
 ---
 
@@ -64,6 +66,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 - [yamlsplice · 2026-10-26](reports/2026-10-26-yamlsplice.md) — 改一个数字产生四十行 diff，因为工具必须把你的文件整个重写一遍
 - [shapefind · 2026-10-26](reports/2026-10-26-shapefind.md) — 一个号称按语法树匹配的工具，被一段注释改变了匹配结果
 - [mddeck · 2026-10-27](reports/2026-10-27-mddeck.md) — 为了把 Markdown 画成 PDF，它每次转换留下 18MB 的 Chrome，十天堆了 400GB
+- [benchloop · 2026-10-27](reports/2026-10-27-benchloop.md) — 同一个命令跟它自己比，也能测出「快 3.9 倍」
 
 ---
 
