@@ -19,6 +19,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**shapefind**](https://github.com/z15346183030/shapefind) | Structural search and rewrite for Python — comments and spacing never affect a match |
 | [**mddeck**](https://github.com/z15346183030/mddeck) | Markdown → slides, one self-contained HTML — layout measured at build time, overflow shrunk or reported |
 | [**benchloop**](https://github.com/z15346183030/benchloop) | A/B commands run interleaved — paired speedup with a 95% interval, plus the process-spawn floor |
+| [**leakcheck**](https://github.com/z15346183030/leakcheck) | Hardcoded credentials found by shape, key name and context — samples and placeholders never fire |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -49,6 +50,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-10-26 | [**shapefind**](https://github.com/z15346183030/shapefind) | 按语法树结构搜索和重写 Python 代码，注释与空格永不干扰，零配置零依赖 | [ast-grep](https://github.com/ast-grep/ast-grep)（16.4k★，MIT） |
 | 2026-10-27 | [**mddeck**](https://github.com/z15346183030/mddeck) | Markdown 一键变幻灯片，构建时算好每页排版，溢出自动缩字号或直接报出还差几像素 | [marp-cli](https://github.com/marp-team/marp-cli)（3.9k★，MIT） |
 | 2026-10-27 | [**benchloop**](https://github.com/z15346183030/benchloop) | 交错跑 A/B 命令，用配对数据算加速比与 95% 区间，顺带量出进程创建地板 | [hyperfine](https://github.com/sharkdp/hyperfine)（29.2k★，Apache-2.0） |
+| 2026-10-28 | [**leakcheck**](https://github.com/z15346183030/leakcheck) | 按形状 / 键名 / 上下文找硬编码密钥，占位符和文档示例永不误报 | [gitleaks](https://github.com/gitleaks/gitleaks)（30.4k★，MIT） |
 
 ---
 
@@ -67,6 +69,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 - [shapefind · 2026-10-26](reports/2026-10-26-shapefind.md) — 一个号称按语法树匹配的工具，被一段注释改变了匹配结果
 - [mddeck · 2026-10-27](reports/2026-10-27-mddeck.md) — 为了把 Markdown 画成 PDF，它每次转换留下 18MB 的 Chrome，十天堆了 400GB
 - [benchloop · 2026-10-27](reports/2026-10-27-benchloop.md) — 同一个命令跟它自己比，也能测出「快 3.9 倍」
+- [leakcheck · 2026-10-28](reports/2026-10-28-leakcheck.md) — 222 条正则漏掉的那 13 个密钥，全都栽在「正则不知道值在什么位置」
 
 ---
 
