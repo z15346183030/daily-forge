@@ -22,6 +22,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**leakcheck**](https://github.com/z15346183030/leakcheck) | Hardcoded credentials found by shape, key name and context — samples and placeholders never fire |
 | [**pngslim**](https://github.com/z15346183030/pngslim) | PNG, smaller, pixel-identical — only filters and deflate rewritten, header and metadata untouched |
 | [**copyfind**](https://github.com/z15346183030/copyfind) | Duplicated code, grouped into clone classes — 12 copies is one entry, not 11 pairs |
+| [**linkcheck**](https://github.com/z15346183030/linkcheck) | Docs link checker — a 403 is not a dead link, and neither is a page it could not finish reading |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -55,6 +56,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-10-28 | [**leakcheck**](https://github.com/z15346183030/leakcheck) | 按形状 / 键名 / 上下文找硬编码密钥，占位符和文档示例永不误报 | [gitleaks](https://github.com/gitleaks/gitleaks)（30.4k★，MIT） |
 | 2026-10-28 | [**pngslim**](https://github.com/z15346183030/pngslim) | 无损瘦身 PNG，只重排滤波和 deflate，图像头 / 调色板 / 元数据一字不动 | [oxipng](https://github.com/oxipng/oxipng)（4.3k★，MIT） |
 | 2026-10-29 | [**copyfind**](https://github.com/z15346183030/copyfind) | 找重复代码并按克隆类分组，12 处重复只报 1 条；许可证头单独排除 | [jscpd](https://github.com/kucherenko/jscpd)（6.5k★，MIT） |
+| 2026-10-29 | [**linkcheck**](https://github.com/z15346183030/linkcheck) | 检查文档链接，只有「能证明坏掉」的才算死链；403 / 429 / 5xx / 超时一律不判死 | [lychee](https://github.com/lycheeverse/lychee)（4.1k★，Apache-2.0） |
 
 ---
 
@@ -76,6 +78,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 - [leakcheck · 2026-10-28](reports/2026-10-28-leakcheck.md) — 222 条正则漏掉的那 13 个密钥，全都栽在「正则不知道值在什么位置」
 - [pngslim · 2026-10-28](reports/2026-10-28-pngslim.md) — 砍掉 38 个参数里的 29 个，才发现真正值钱的 7% 藏在一个调不动的 C 库里
 - [copyfind · 2026-10-29](reports/2026-10-29-copyfind.md) — 12 处重复打印成 11 行：一个开了七年半的 issue，卡在数据结构上
+- [linkcheck · 2026-10-29](reports/2026-10-29-linkcheck.md) — 链接检查器最容易犯的错，是把「我查不到」说成「它坏了」
 
 ---
 
