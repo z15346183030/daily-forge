@@ -21,6 +21,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**benchloop**](https://github.com/z15346183030/benchloop) | A/B commands run interleaved — paired speedup with a 95% interval, plus the process-spawn floor |
 | [**leakcheck**](https://github.com/z15346183030/leakcheck) | Hardcoded credentials found by shape, key name and context — samples and placeholders never fire |
 | [**pngslim**](https://github.com/z15346183030/pngslim) | PNG, smaller, pixel-identical — only filters and deflate rewritten, header and metadata untouched |
+| [**copyfind**](https://github.com/z15346183030/copyfind) | Duplicated code, grouped into clone classes — 12 copies is one entry, not 11 pairs |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -53,6 +54,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-10-27 | [**benchloop**](https://github.com/z15346183030/benchloop) | 交错跑 A/B 命令，用配对数据算加速比与 95% 区间，顺带量出进程创建地板 | [hyperfine](https://github.com/sharkdp/hyperfine)（29.2k★，Apache-2.0） |
 | 2026-10-28 | [**leakcheck**](https://github.com/z15346183030/leakcheck) | 按形状 / 键名 / 上下文找硬编码密钥，占位符和文档示例永不误报 | [gitleaks](https://github.com/gitleaks/gitleaks)（30.4k★，MIT） |
 | 2026-10-28 | [**pngslim**](https://github.com/z15346183030/pngslim) | 无损瘦身 PNG，只重排滤波和 deflate，图像头 / 调色板 / 元数据一字不动 | [oxipng](https://github.com/oxipng/oxipng)（4.3k★，MIT） |
+| 2026-10-29 | [**copyfind**](https://github.com/z15346183030/copyfind) | 找重复代码并按克隆类分组，12 处重复只报 1 条；许可证头单独排除 | [jscpd](https://github.com/kucherenko/jscpd)（6.5k★，MIT） |
 
 ---
 
@@ -73,6 +75,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 - [benchloop · 2026-10-27](reports/2026-10-27-benchloop.md) — 同一个命令跟它自己比，也能测出「快 3.9 倍」
 - [leakcheck · 2026-10-28](reports/2026-10-28-leakcheck.md) — 222 条正则漏掉的那 13 个密钥，全都栽在「正则不知道值在什么位置」
 - [pngslim · 2026-10-28](reports/2026-10-28-pngslim.md) — 砍掉 38 个参数里的 29 个，才发现真正值钱的 7% 藏在一个调不动的 C 库里
+- [copyfind · 2026-10-29](reports/2026-10-29-copyfind.md) — 12 处重复打印成 11 行：一个开了七年半的 issue，卡在数据结构上
 
 ---
 
