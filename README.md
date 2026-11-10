@@ -27,6 +27,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**httptrace**](https://github.com/z15346183030/httptrace) | One HTTP request, described byte for byte — header case and JSON digits untouched |
 | [**importsift**](https://github.com/z15346183030/importsift) | Import sections decided by evidence — stdlib, installed, or yours — and printed line by line |
 | [**jumpd**](https://github.com/z15346183030/jumpd) | Directory jumper — exact match always wins, smart case, every score point printable |
+| [**quietwatch**](https://github.com/z15346183030/quietwatch) | Runs a command only when file content changes — one save, one run, no ignore rules |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -65,6 +66,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-11-02 | [**httptrace**](https://github.com/z15346183030/httptrace) | 发一个 HTTP 请求并把交换逐字节讲清楚：头部大小写原样、JSON 数字不动、dry-run 与真实发送共用同一份字节 |
 | 2026-11-03 | [**importsift**](https://github.com/z15346183030/importsift) | 把 import 分成标准库 / 第三方 / 本项目并排序，每条判断都打印依据；写回前重新解析校验，import 集合变了就不写 |
 | 2026-11-05 | [**jumpd**](https://github.com/z15346183030/jumpd) | 带解释性评分的目录跳转——精确匹配永远赢，智能大小写，尾部斜杠精确匹配，每分都能打印 |
+| 2026-11-10 | [**quietwatch**](https://github.com/z15346183030/quietwatch) | 只按文件内容变化触发命令，一次保存只跑一次，零配置零忽略规则 |
 
 ---
 
