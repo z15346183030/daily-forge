@@ -29,6 +29,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**jumpd**](https://github.com/z15346183030/jumpd) | Directory jumper — exact match always wins, smart case, every score point printable |
 | [**quietwatch**](https://github.com/z15346183030/quietwatch) | Runs a command only when file content changes — one save, one run, no ignore rules |
 | [**unformat**](https://github.com/z15346183030/unformat) | Reads text back into values with the same format spec that wrote it — `format()` is the only judge |
+| [**pathdelta**](https://github.com/z15346183030/pathdelta) | JSON changes listed by path — arrays aligned by value, so one insert stays one change |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -69,6 +70,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-11-05 | [**jumpd**](https://github.com/z15346183030/jumpd) | 带解释性评分的目录跳转——精确匹配永远赢，智能大小写，尾部斜杠精确匹配，每分都能打印 |
 | 2026-11-10 | [**quietwatch**](https://github.com/z15346183030/quietwatch) | 只按文件内容变化触发命令，一次保存只跑一次，零配置零忽略规则 |
 | 2026-11-12 | [**unformat**](https://github.com/z15346183030/unformat) | 用写出文本的那段格式描述把值读回来，宽度 / 填充 / 千分位由 format() 自己判定 |
+| 2026-11-12 | [**pathdelta**](https://github.com/z15346183030/pathdelta) | 按路径列出两份 JSON 文档真正变化的字段，数组按内容对齐，一次插入只报一条 |
 
 ---
 
