@@ -31,6 +31,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**unformat**](https://github.com/z15346183030/unformat) | Reads text back into values with the same format spec that wrote it — `format()` is the only judge |
 | [**pathdelta**](https://github.com/z15346183030/pathdelta) | JSON changes listed by path — arrays aligned by value, so one insert stays one change |
 | [**framescope**](https://github.com/z15346183030/framescope) | Pasted traceback mapped to local source, line by line — every frame verified or explained |
+| [**regexplain**](https://github.com/z15346183030/regexplain) | A regex explained node by node — capture groups listed, sample strings checked against the engine |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -73,6 +74,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-11-12 | [**unformat**](https://github.com/z15346183030/unformat) | 用写出文本的那段格式描述把值读回来，宽度 / 填充 / 千分位由 format() 自己判定 |
 | 2026-11-12 | [**pathdelta**](https://github.com/z15346183030/pathdelta) | 按路径列出两份 JSON 文档真正变化的字段，数组按内容对齐，一次插入只报一条 |
 | 2026-11-13 | [**framescope**](https://github.com/z15346183030/framescope) | 把贴过来的回溯逐帧对应到本地源码，核对出错行并说明每帧为何显示不出来 |
+| 2026-11-13 | [**regexplain**](https://github.com/z15346183030/regexplain) | 把正则逐节点翻译成结构说明，列出捕获组并用样例核验到底命不命中 |
 
 ---
 
