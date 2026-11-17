@@ -34,6 +34,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**regexplain**](https://github.com/z15346183030/regexplain) | A regex explained node by node — capture groups listed, sample strings checked against the engine |
 | [**importbill**](https://github.com/z15346183030/importbill) | Startup import time turned into an itemized bill — ranked by self time, every number checked by arithmetic |
 | [**envalign**](https://github.com/z15346183030/envalign) | Two .env files compared variable by variable — aligned, changed, or missing, sensitive values masked |
+| [**charscope**](https://github.com/z15346183030/charscope) | Character composition of any text — invisible characters, lookalikes and non-ASCII spaces, located to the line and column |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -79,6 +80,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-11-13 | [**regexplain**](https://github.com/z15346183030/regexplain) | 把正则逐节点翻译成结构说明，列出捕获组并用样例核验到底命不命中 |
 | 2026-11-14 | [**importbill**](https://github.com/z15346183030/importbill) | 把启动导入耗时整理成可核对的账单，按自身耗时排名、给出最热链路并逐节点验算 |
 | 2026-11-17 | [**envalign**](https://github.com/z15346183030/envalign) | 对比两份 .env 文件，按名称列出对齐与差异变量，敏感值自动打码 |
+| 2026-11-17 | [**charscope**](https://github.com/z15346183030/charscope) | 说明文本的真实字符构成，标出不可见字符、同形字母与非 ASCII 空格并给出行列位置 |
 
 ---
 
