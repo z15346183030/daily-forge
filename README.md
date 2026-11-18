@@ -35,6 +35,7 @@ Every tool lives in its **own repository** — clone it, install it, use it on i
 | [**importbill**](https://github.com/z15346183030/importbill) | Startup import time turned into an itemized bill — ranked by self time, every number checked by arithmetic |
 | [**envalign**](https://github.com/z15346183030/envalign) | Two .env files compared variable by variable — aligned, changed, or missing, sensitive values masked |
 | [**charscope**](https://github.com/z15346183030/charscope) | Character composition of any text — invisible characters, lookalikes and non-ASCII spaces, located to the line and column |
+| [**portwho**](https://github.com/z15346183030/portwho) | Who owns a port — process, path and start time, with TCP listeners and bound UDP sockets by default |
 
 All MIT licensed. All runnable — no "coming soon", no "planned support".
 
@@ -81,6 +82,7 @@ All MIT licensed. All runnable — no "coming soon", no "planned support".
 | 2026-11-14 | [**importbill**](https://github.com/z15346183030/importbill) | 把启动导入耗时整理成可核对的账单，按自身耗时排名、给出最热链路并逐节点验算 |
 | 2026-11-17 | [**envalign**](https://github.com/z15346183030/envalign) | 对比两份 .env 文件，按名称列出对齐与差异变量，敏感值自动打码 |
 | 2026-11-17 | [**charscope**](https://github.com/z15346183030/charscope) | 说明文本的真实字符构成，标出不可见字符、同形字母与非 ASCII 空格并给出行列位置 |
+| 2026-11-18 | [**portwho**](https://github.com/z15346183030/portwho) | 按端口号查出占用进程，给出名称、路径与启动时间；默认只看监听中的 TCP 与已绑定的 UDP |
 
 ---
 
